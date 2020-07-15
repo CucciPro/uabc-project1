@@ -109,22 +109,25 @@ function getEvents() {
 function previousSearch() {
     var location = document.getElementById("get-city").value;
 
-    var searchInfo = {
-        cities: location
-    };
+    if (search.length == 0){
+        
+        search.push(location);
+    }
+    else if(search.indexOf(location) == -1) {
 
-    search.push(searchInfo);
-
+        search.push(location);
+    }
+    
     localStorage.setItem("search", JSON.stringify(search));
 
-    document.getElementById('search').textContent = "";
+    document.getElementById('list').textContent = "";
 
-    var oList = document.createElement("ol");
+    var oList = document.createElement("ul");
     for (i = 0; i < search.length; i++) {
         var list = document.createElement("li");
-        list.textContent = search[i].cities;
+        list.textContent = search[i];
         oList.appendChild(list);
-        document.getElementById('search').appendChild(oList);
+        document.getElementById('list').appendChild(oList);
     };
 
 }

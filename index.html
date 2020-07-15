@@ -53,15 +53,16 @@
             <h4 class="center">Search for events in your area</h4>
             <div class="input-field">
                 <textarea id="get-city" class="materialize-textarea" placeholder="Tucson"></textarea>
-                <button class="btn waves-effect waves-light" type="submit" name="action"><i
-                        class="fas fa-search"></i>
-                    Search
-                </button>
-
+                <div id="buttonArea" class="buttonArea">
+                    <button class="btn waves-effect waves-light" type="submit" name="action"><i
+                            class="fas fa-search"></i>
+                        Search
+                    </button>
+                    <div id="list" class="search"></div>
+                </div>
             </div>
         </div>
 
-        <div id="search"></div>
 
         <div class="event-data city">
             <!-- Event Data -->
