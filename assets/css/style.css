@@ -30,6 +30,25 @@
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.30);
 }
 
+.buttonArea {
+    display: inline-flex;
+}
+
+.search {
+	display: table;
+	margin: 0 auto;
+}
+
+.search ul {
+	min-width: 696px;
+	list-style: none;
+}
+
+.search ul li {
+        display: inline;
+        padding-left: 20px;
+}
+
 .btn,
 .btn-results {
     height: inherit;
@@ -84,6 +103,11 @@
     margin-top: 5px;
 }
 
+<<<<<<< HEAD
 .page-footer {
     margin-top: 5vw;
+=======
+.search {
+    display: inline; 
+>>>>>>> 4b4a68a373bfbce4844563139b00ea84170b373a
 }
