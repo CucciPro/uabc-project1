@@ -45,9 +45,15 @@
 }
 
 .search ul li {
-        display: inline;
-        padding-left: 20px;
+    display: inline;
+    margin-left: 20px;
+    color: blue;
 }
+
+.search ul li:hover {
+    background-color: #a39f9f;
+    cursor: pointer;
+  }
 
 .btn,
 .btn-results {
