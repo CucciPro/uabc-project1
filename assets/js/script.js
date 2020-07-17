@@ -125,12 +125,23 @@ function previousSearch() {
     var oList = document.createElement("ul");
     for (i = 0; i < search.length; i++) {
         var list = document.createElement("li");
+        list.setAttribute("onclick", "previousClick(this.id)");
         list.textContent = search[i];
+        var idName = list.textContent;
+        list.setAttribute("id", idName);
         oList.appendChild(list);
         document.getElementById('list').appendChild(oList);
     };
 
 }
+
+function previousClick(clicked_id){
+    document.getElementById("get-city").value = clicked_id;
+    city = document.getElementById("get-city").value;
+    previousSearch();
+    getEvents();
+}
+
 
 
 // END FUNCTIONS // 
