@@ -29,24 +29,3 @@ Users can utilize native google maps embed functionaltyon each maps listing
 Users can click on the logo in the google maps embed to travel to google maps    
 
 
-## Screenshots
-
-### GIF
-![Proof of GIF](./assets/doc/??? "Proof of  #1")
-
-### Still
-![Proof of Still](./assets/doc/??? "Proof of  #2")
-
-![Proof of Still](./assets/doc/??? "Proof of  #3")
-
-## Update text - Micah
-
-## Add a local storage ( history ) - Jose
-
-## CSS and formating - Zac
-
-## Adding links to the different events - Jake
-
-## Fix google maps sizing- Carolina
-
-
