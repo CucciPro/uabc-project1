@@ -3424,7 +3424,7 @@ table span.badge {
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
-          color: #F7C331;
+          color: #F7882F;
 }
 
 .container {
@@ -5251,7 +5251,7 @@ small {
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #F7882F;
+  background-color: #F7C331;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
