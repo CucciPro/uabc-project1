@@ -26,7 +26,7 @@ Event details include:
 Users can click the event ticket purchase link in order to travel to the corresponding ticketmaster web page    
 Users can view the event venue on the google maps embed    
 Users can utilize native google maps embed functionaltyon each maps listing    
-Users can click on the logo in the google maps embed to travel to google maps
+Users can click on the logo in the google maps embed to travel to google maps  
 Users can click on previous searches and return to them
 
 
